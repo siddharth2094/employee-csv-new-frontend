@@ -3,7 +3,7 @@ import { store } from "./redux/store";
 import * as actionTypes from "./redux/actionTypes";
 import toast from "toastr";
 
-export const host = "http://localhost:8000";
+export const host = "";
 export const domain = `${host}/v0`;
 
 export const axiosInstance = axios.create({
